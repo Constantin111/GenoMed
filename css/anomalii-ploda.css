@@ -1,0 +1,347 @@
+.container {
+    padding-left: 0;
+    padding-right: 0;
+}
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1180px;
+    }
+}
+BODY {
+    font-family: 'core sans a 45 regular', arial;
+    margin: 0 auto;
+    /*min-width: 1180px;*/
+    /* max-width: 1920px; */
+    overflow: visible !important;
+}
+a:hover {
+    text-decoration: none;
+    color: inherit;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+#content1 {
+    color: #6a6a6a;
+    font-size: 14px;
+    line-height: 1.5;
+    text-align: left;
+    width: 100%;
+}
+#content1 .cont_txt {
+    margin: 0 auto;
+    width: 100%;
+    position: relative;
+}
+#content1 .cont_txt .contentText {
+    color: #6a6a6a;
+    font-size: 14px;
+    line-height: 1.5;
+}
+.analizblock {
+    width: 100%;
+    color: #FFFFFF;
+    background-image: url(https://genomed.ru/assets/skin/poroki-razvitiya-banner.jpg);
+    min-height: 345px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: -20px;
+    margin-bottom: -10px;
+}
+.analizzag {
+    width: 100%;
+    font-size: 30px;
+    font-family: Arial;
+    text-transform: uppercase;
+    font-weight: bold;
+    display: block;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.nervno-top-form {
+    margin: 0px 0 0 0;
+    width: 100%;
+}
+.nervno-btn {
+    padding: 13px 42px;
+    background-color: #e6f3fa;
+    color: #bcc8cf;
+    font-size: 17px;
+    text-decoration: none;
+    font-weight: 200;
+    text-align: center;
+}
+.nervno-btn:hover {
+    color: #bcc8cf;
+}
+.nervno-btn1 {
+    padding: 13px 0px;
+    margin-right: 6px;
+    width: 49%;
+    text-align: center;
+}
+.nervno-btn2 {
+    width: 49%;
+}
+
+.poroki_infoblock {
+    margin-top: 30px;
+    margin-bottom: 15px;
+    display: block;
+    width: 100%;
+    max-width: 880px;
+    margin: 30px auto 15px auto;
+    overflow: hidden;
+}
+.poroki_infoblock_left {
+    color: #ffffff;
+    line-height: 1.2;
+    margin-right: 0px;
+    width: 130px;
+    height: 130px;
+    float: left;
+    text-align: center;
+    vertical-align: middle;
+}
+.poroki_infoblock_1 {
+    background-color: #eeadcd;
+}
+.poroki_infoblock_2 {
+    background-color: #1bb5be;
+}
+.poroki_infoblock_3 {
+    background-color: #cfca53;
+}
+.poroki_infoblock_4 {
+    background-color: #6577b8;
+}
+.poroki_infoblock_5 {
+    background-color: #b8d481;
+}
+.poroki_infoblock_6 {
+    background-color: #f09371;
+}
+
+.poroki_genofont {
+    background-image: url(https://genomed.ru/assets/skin/poroki-strelka.png);
+    background-position: top center;
+    background-repeat: no-repeat;
+    padding-top: 40px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.poroki_genofont h4 {
+    color: #0d8ed1;
+    font-size: 30px;
+    font-weight: normal;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.font_18 {
+    color: #6a6a6a;
+    font-size: 18px;
+    text-decoration: none;
+}
+.poroki_genofont_2 {
+    line-height: 1;
+    background-image: url(https://genomed.ru/assets/skin/proki-deti-2.png);
+    background-position: top center;
+    background-repeat: no-repeat;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    display: inline-block;
+    width: 100%;
+    min-height: 129px;
+    text-align: center;
+}
+.poroki_genofont_2 .font_18 {
+    display: block;
+    width: 100%;
+}
+.poroki_genofont_2 p {
+    margin: 0;
+}
+.nervno-panel-title {
+    position: relative;
+    left: 0px;
+    font-size: 30px;
+    color: #6a6a6a;
+    font-weight: 100;
+    text-align: center;
+    width: 100%;
+}
+.poroki_razvitiay {
+    padding-left: 15px;
+    padding-right: 15px;
+    border-width: 1px;
+    border-color: #eeeeee;
+    border-style: solid;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    width: 49%;
+    min-width: 320px;
+}
+.poroki_razvitiay p {
+    margin-top: 1em;
+}
+
+#content1 .cont_txt .contentTitle {
+    color: #6a6a6a;
+    font-size: 30px;
+    font-weight: normal;
+    margin-top: 60px;
+    margin-bottom: 15px;
+    clear: none;
+    text-align: center;
+}
+.poroki_hromosom {
+    margin-bottom: 15px;
+    margin-right: 0px;
+    width: 280px;
+    float: left;
+}
+.poroki_hromosom h3 {
+    color: #318edc;
+    padding-left: 0px;
+    border-width: 2px;
+    border-color: #318edc;
+    border-style: solid;
+    margin: 0 auto;
+    margin-bottom: 8px;
+    width: 29px;
+    height: 29px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    font-size: 19px;
+}
+.poroki_hromosom span {
+    color: #ffffff;
+    line-height: height;
+    background-color: #318edc;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    margin-bottom: 10px;
+    display: table-cell;
+    width: 265px;
+    height: 73px;
+    vertical-align: middle;
+}
+
+.poroki_seli {
+    background-image: url(https://genomed.ru/assets/skin/poroki-krugi.jpg);
+    background-position: top center;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    margin-top: -10px;
+    min-height: 264px;
+    text-align: center;
+    width: 100%;
+    max-width: 880px;
+}
+
+.panel_nervno {
+    font-weight: normal;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 25px;
+    border-width: 2px;
+    border-color: #009fe3;
+    border-style: solid;
+    margin-top: 40px;
+    margin-bottom: -30px;
+    display: inline-block;
+    clear: both;
+}
+.panel_nervno h3 {
+    font-size: 30px;
+    font-weight: normal;
+    margin-top: 0px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+.panel_nervno_txt {
+    padding-left: 0px;
+    min-height: 279px;
+}
+.panel_nervno_txt_img {
+    width: 26%;
+    min-width: 260px;
+}
+.panel_nervno_txt_p {
+    width: 73%;
+}
+.panel_nervno_txt a {
+    padding-top: 7px;
+    padding-bottom: 7px;
+    margin-top: 2px;
+    margin-bottom: 15px;
+}
+
+#content1 .cont_txt .object {
+    background-position: top left;
+    background-repeat: no-repeat;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    margin: 10px;
+    width: 180px;
+    height: 183px;
+    float: left;
+    text-align: center;
+}
+.record-item.test_else4 {
+    background-image: url(https://genomed.ru/assets/images/plod-blok-1_prev.jpg);
+}
+.record-item.test_else1 {
+    background-image: url(https://genomed.ru/assets/images/plod-blok-2_prev.jpg);
+}
+.record-item.test_else2 {
+    background-image: url(https://genomed.ru/assets/images/plod-blok-3_prev.jpg);
+}
+.record-item.test_else3 {
+    background-image: url(https://genomed.ru/assets/images/plod-blok-4_prev.jpg);
+}
+#content1 .cont_txt .objectTitle {
+    color: #ffffff;
+    font-size: 14px;
+    line-height: 1.5;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 55px;
+    margin-left: 0px;
+    height: 70px;
+    text-align: center;
+    line-height: 1.3;
+}
+
+@media (max-width: 767px) {
+    .analizblock {
+        width: 100%;
+        color: #FFFFFF;
+        background-image: url(https://genomed.ru/assets/skin/poroki-razvitiya-banner.jpg);
+        min-height: 345px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position-x: center;
+        margin-top: -20px;
+        margin-bottom: -10px;
+    }
+    .nervno-btn1 {
+        /*padding: 13px 0px;*/
+        margin-right: 0px;
+        width: 90%;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .nervno-btn2 {
+        width: 90%;
+    }
+    .poroki_infoblock_left {
+        margin-bottom: 10px;
+    }
+}

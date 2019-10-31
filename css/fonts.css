@@ -1,0 +1,39 @@
+@font-face{font-family:CoreSansA15Thin;
+    src:url('https://genomed.ru/tpl/fonts/CoreSansA15Thin.otf');
+    src:url('https://genomed.ru/tpl/fonts/CoreSansA15Thin.otf') format('embedded-opentype')
+;font-weight:400;font-style:normal}
+
+@font-face{font-family:CoreSansA45Regular-Italic;
+    src:url('https://genomed.ru/tpl/fonts/CoreSansA45Regular-Italic.otf');
+    src:url('https://genomed.ru/tpl/fonts/CoreSansA45Regular-Italic.otf') format('embedded-opentype')
+;font-weight:400;font-style:italic}
+
+@font-face{font-family:CoreSansA45Regular;
+    src:url('https://genomed.ru/tpl/fonts/CoreSansA45Regular.otf');
+    src:url('https://genomed.ru/tpl/fonts/CoreSansA45Regular.otf') format('embedded-opentype')
+;font-weight:400;font-style:normal}
+
+@font-face{font-family:CoreSansA65Bold;
+    src:url('https://genomed.ru/tpl/fonts/CoreSansA65Bold.otf');
+    src:url('https://genomed.ru/tpl/fonts/CoreSansA65Bold.otf') format('embedded-opentype')
+;font-weight:700;font-style:normal}
+
+@font-face{font-family:Bradobrei;
+    src:url('https://genomed.ru/tpl/landings/services/assets/skin/fonts/bradobrei.ttf');
+    src:url('https://genomed.ru/tpl/landings/services/assets/skin/fonts/bradobrei.ttf') format('truetype')
+;font-weight:400;font-style:normal}
+
+@font-face{font-family:RUBSN;
+    src:url('https://genomed.ru/tpl/landings/services/assets/skin/fonts/RUBSN.otf');
+    src:url('https://genomed.ru/tpl/landings/services/assets/skin/fonts/RUBSN.otf') format('embedded-opentype')
+;font-weight:400;font-style:normal}
+
+@font-face {
+    font-family: 'rouble';
+    src: url('https://genomed.ru/tpl/landings/services/assets/skin/fonts/rouble-webfont.eot');
+    src: url('https://genomed.ru/tpl/landings/services/assets/skin/fonts/rouble-webfont.eot?#iefix') format('embedded-opentype'),
+    url('https://genomed.ru/tpl/landings/services/assets/skin/fonts/rouble-webfont.woff') format('woff'),
+    url('https://genomed.ru/tpl/landings/services/assets/skin/fonts/rouble-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
