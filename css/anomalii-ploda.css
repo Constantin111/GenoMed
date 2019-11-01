@@ -243,6 +243,17 @@ img {
     width: 100%;
     max-width: 880px;
 }
+.poroki_seli_1 {
+      padding-left: 40px;
+      padding-top: 20px;
+  }
+.poroki_seli_2 {
+    padding-top: 20px;
+}
+.poroki_seli_3 {
+    padding-right: 40px;
+    padding-top: 31px;
+}
 
 .panel_nervno {
     font-weight: normal;
@@ -295,6 +306,9 @@ img {
     text-align: center;
     display: block;
 }
+.nervno-stat-btn2:hover {
+    color: #fff;
+}
 #content1 .cont_txt .object {
     background-position: top left;
     background-repeat: no-repeat;
@@ -344,6 +358,29 @@ img {
     color: #ffffff;
 }
 
+@media (max-width: 990px) {
+    .poroki_seli {
+        background-image: none;
+        background: #EEEEEE;
+        margin-top: 0;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .poroki_seli_1,.poroki_seli_2,.poroki_seli_3 {
+        background: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+        height: 200px;
+        width: 200px;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        border-radius: 50%;
+        border: 3px solid #DBDBDB;
+    }
+}
+
 @media (max-width: 767px) {
     .analizblock {
         width: 100%;
@@ -368,5 +405,8 @@ img {
     }
     .poroki_infoblock_left {
         margin-bottom: 10px;
+    }
+    .panel_nervno_txt_p {
+        width: 92%;
     }
 }
